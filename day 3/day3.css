@@ -1,0 +1,140 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url('C:/Users/ADMIN/Desktop/portfolio.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+.mainheader
+{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+ a 
+ {
+ 	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+    font-weight: 700;
+ }
+
+ .mainheader nav 
+ {
+ 	width: 400px;
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .menubtn button
+ {
+ 	width: 100px;
+ 	height: 28px;
+ 	color: deepskyblue;
+ 	margin-right: 25px;
+ 	background-color: white;
+ 	border :2px solid deepskyblue;
+ 	border-radius: 20px;
+ 	font-weight: 700;
+ }
+ .logo h1
+ {
+ 	margin-left: 20px;
+ }
+ .menubtn button:hover
+ {
+ 	background-color:lightblue;
+ 	color: white;
+ }
+ .mainheader nav a:hover
+ {
+  color: deepskyblue;
+ }
+ .menu h4
+ {
+ 	margin-left: 30px;
+ 	margin-top: 140px;
+ 	word-spacing: 4px;
+ 	font-size: 30px;
+ }
+ .menu h1
+ {
+ 	margin-left: 30px;
+ 	padding-top: 10px;
+ 	color: deepskyblue;
+ 	font-size: 50px;
+
+ }
+ .menu h3
+ {
+ 	margin-left: 30px;
+ 	padding-top: 10px;
+ 	word-spacing: 4px;
+ 	font-size: 40px;
+
+ }
+  .textbox
+ {
+ 	margin-left: 30px;
+ 	padding-top: 25px;
+ }
+ .textbox input
+ {
+ 	height: 34px;
+ 	border-radius: 20px;
+ 	border: 1px solid deepskyblue;
+ 	padding-left: 5px;
+ 	width: 300px;
+ 	color: deepskyblue;
+ 	outline: 0;
+ }
+ .textbox button
+ {
+ 	height: 28px;
+ 	border-radius: 20px;
+ 	border: 1px solid deepskyblue;
+ 	background-color: lightblue;
+ 	width: 97px;
+    margin-left: -105px;
+ }
+
+.textbox button:hover
+{
+	background-color: deepskyblue;
+}
+
+.photo img
+ {
+ 	margin-left: 880px;
+ 	margin-top: -215px;
+ }
+ i
+{
+	color: deepskyblue;
+   font-size: 25px;
+   justify-content: space-between;
+  width: 60px;
+}
+.icons
+{
+	margin-left: 570px;
+	margin-top: 50px;
+}
+i:hover
+{
+	color: lightblue;
+}
+::-webkit-input-placeholder
+{
+	color: lightblue;
+}
